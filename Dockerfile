@@ -1,3 +1,4 @@
-FROM bash:4.4.12
-RUN apk add --no-cache curl jq
+FROM docker:latest
+
+RUN apk add --no-cache bash curl jq
 CMD ["bash"]
